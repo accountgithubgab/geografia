@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background-color:  rgb(141, 140, 140);
+}
+form  {
+    background-color:silver;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    border-color: red; 
+}
+h1{
+    font-style: italic;
+}

@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1, h2{
+    font-style: italic;  
+}
+
+.footer{
+    margin:0;
+    padding:0;
+}
+
+html, body {height:100%; width: 100%;}
+
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.caixadetexto { 
+    color: black; 
+    font-weight:60;
+    padding-left:1px; 
+    font-size:40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form {
+    background-color:silver;
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    border-color: silver; 
+}
+.caixadetexto{
+    text-transform: capitalize;
+    border: 3em;
+}
+input.username {
+    height: 50px;
+    line-height: 50px;
+    color:white;
+    text-align: center;
+}
+input.username {
+    border: .125rem solid #ccc;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+div{
+    align-content: center;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+input, select, option{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #424242;
+    padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ffffff);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(white),
+		to(#ffffff));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #ffffff;
+	-moz-box-shadow:
+		0px 1px 3px rgba(255,255,255,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(255,255,255,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(255,255,255,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+        0px 1px 0px rgba(255,255,255,0.3);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+select{
+    margin-left: -1em;
+    text-align: center;
+    width: 100px;
+    padding-left: 4.8em;
+}
